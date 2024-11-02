@@ -1,7 +1,8 @@
 # 1. Download this project
 
 # 2. Install dependencies
-	sudo apt-get install git 
+	sudo su
+ 	sudo apt-get install git 
 	sudo apt-get install curl
 	sudo apt-get install docker-compose
 	sudo apt-get install npm
