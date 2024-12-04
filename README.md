@@ -1,4 +1,5 @@
 # 1. Download this project
+	git clone https://github.com/leandroloffi/CustodyChain
 
 # 2. Install dependencies
 	sudo su
