@@ -8,6 +8,7 @@
 	sudo apt-get install docker-compose
 	sudo apt-get install npm
 	sudo apt-get install jq
+ 	sudo apt install python3-distutils-extra
 	sudo systemctl start docker
 	sudo usermod -a -G docker <username>
 	sudo docker --version
@@ -26,7 +27,8 @@
 	node src/app.js
 
 # 5. To run FRONTEND - PORT 5173
-	cd ../../frontend/
+	# open a new terminal
+ 	cd frontend/
 	npm install
 	npm install express
 	npm run dev -- --host
